@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car Gallery WPF", "Car Gallery WPF\Car Gallery WPF.csproj", "{2033E6F8-CCDC-4B85-A2FB-29732A9939E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadLock Example", "DeadLock Example\DeadLock Example.csproj", "{E5B9A8CD-04A5-48A7-B385-3FB05C421B14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2033E6F8-CCDC-4B85-A2FB-29732A9939E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2033E6F8-CCDC-4B85-A2FB-29732A9939E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2033E6F8-CCDC-4B85-A2FB-29732A9939E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B9A8CD-04A5-48A7-B385-3FB05C421B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B9A8CD-04A5-48A7-B385-3FB05C421B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B9A8CD-04A5-48A7-B385-3FB05C421B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B9A8CD-04A5-48A7-B385-3FB05C421B14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
