@@ -1,0 +1,10 @@
+[{"Make":"Jeep","Model":"Liberty","Year":2012,"ImagePath":"http://dummyimage.com/193x100.png/dddddd/000000"},
+{"Make":"Lexus","Model":"LFA","Year":2012,"ImagePath":"http://dummyimage.com/114x100.png/dddddd/000000"},
+{"Make":"Nissan","Model":"Armada","Year":2009,"ImagePath":"http://dummyimage.com/194x100.png/5fa2dd/ffffff"},
+{"Make":"Mercedes-Benz","Model":"SL-Class","Year":1999,"ImagePath":"http://dummyimage.com/209x100.png/5fa2dd/ffffff"},
+{"Make":"Dodge","Model":"Ram","Year":1994,"ImagePath":"http://dummyimage.com/206x100.png/5fa2dd/ffffff"},
+{"Make":"Ford","Model":"LTD Crown Victoria","Year":1991,"ImagePath":"http://dummyimage.com/201x100.png/cc0000/ffffff"},
+{"Make":"Lotus","Model":"Esprit","Year":1994,"ImagePath":"http://dummyimage.com/171x100.png/dddddd/000000"},
+{"Make":"Toyota","Model":"Highlander","Year":2001,"ImagePath":"http://dummyimage.com/216x100.png/dddddd/000000"},
+{"Make":"Mercedes-Benz","Model":"S-Class","Year":2003,"ImagePath":"http://dummyimage.com/206x100.png/dddddd/000000"},
+{"Make":"Saturn","Model":"Ion","Year":2007,"ImagePath":"http://dummyimage.com/193x100.png/cc0000/ffffff"}]

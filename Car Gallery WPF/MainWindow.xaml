@@ -6,14 +6,14 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
         xmlns:local="clr-namespace:Car_Gallery_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" KeyDown="Window_KeyDown">
     <Grid >
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
-        <ScrollViewer Margin="0,10,0,0" VerticalScrollBarVisibility="Auto">
+        <ScrollViewer Margin="0,10,0,0" VerticalScrollBarVisibility="Auto"  FontFamily="Comic Sans MS">
             <ItemsControl ItemsSource="{Binding Cars}">
                 <ItemsControl.ItemsPanel >
                     <ItemsPanelTemplate>
@@ -22,10 +22,10 @@
                 </ItemsControl.ItemsPanel>
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <Border Margin="10 " BorderThickness="2" BorderBrush="Black">
-                            <StackPanel Orientation="Vertical">
+                        <Border Margin="10 " BorderThickness="1" BorderBrush="Black">
+                            <StackPanel Orientation="Vertical" Margin="5">
                                 <Image Width="100" Height="150" Source="{Binding ImagePath}"></Image>
-                                <Grid>
+                                <Grid >
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition/>
                                         <ColumnDefinition/>
@@ -33,7 +33,7 @@
                                     <TextBlock  Text="Make: "/>
                                     <TextBlock  Grid.Column="1" Text="{Binding Make}"/>
                                 </Grid>
-                                <Grid>
+                                <Grid >
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition/>
                                         <ColumnDefinition/>
@@ -41,7 +41,7 @@
                                     <TextBlock  Text="Model: "/>
                                     <TextBlock  Grid.Column="1" Text="{Binding Model}"/>
                                 </Grid>
-                                <Grid>
+                                <Grid >
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition/>
                                         <ColumnDefinition/>
@@ -62,28 +62,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <!--<Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <ToggleButton >
-                    
-                </ToggleButton>
-                --><!--<RadioButton
-                    Foreground="#8DA7BE"
-                    Name="rbSingle"
-                    
-                    Margin="4"
-                    Content="Single" />--><!--
-                <RadioButton
-                    Foreground="#8DA7BE"
-                    Name="rbMulti"
-                    Grid.Column="1"
-                    
-                    Margin="4"
-                    Content="Multi"/>
-            </Grid>-->
+
 
 
             <Grid >
@@ -99,16 +78,16 @@
                 <TextBlock 
                     Grid.Column="1"
                     VerticalAlignment="Center" 
-                    Foreground="#8DA7BE" 
+                    FontFamily="Comic Sans MS"
                     FontSize="15" 
                     HorizontalAlignment="Center" 
                     Text="Execution Time:"/>
 
                 <TextBlock 
-                    Name="tbTimeSpan"
+                    Name="exeTime"
                     Grid.Column="2" 
                     VerticalAlignment="Center" 
-                    Foreground="#8DA7BE" 
+                    FontFamily="Comic Sans MS"
                     FontSize="15" 
                     HorizontalAlignment="Center"
                     Text="00:00:00"/>
@@ -127,14 +106,14 @@
                     Name="BtnStart"
                     Margin="5"
                      
-                     Content="Start" Click="BtnStart_Click"/>
+                     Content="Start" Click="btnStart_Click"/>
                 <Button
                     Name="BtnCancel"
                      IsEnabled="False"
                      Grid.Column="1"
                      Margin="5"
                      
-                     Content="Cancel" Click="BtnCancel_Click"/>
+                     Content="Cancel" Click="btnCancel_Click"/>
             </Grid>
         </Grid>
     </Grid>
